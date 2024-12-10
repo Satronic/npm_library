@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SneiderGallegos/npm_library.git"
+    "url": "https://github.com/Satronic/npm_library.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
