@@ -1,0 +1,23 @@
+{
+  "name": "my-library",
+  "version": "1.0.0",
+  "description": "A test library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ing. Sneider Gallegos Marin",
+  "license": "ISC",
+  "devDependencies": {
+    "release-it": "^17.10.0"
+  },
+  "release-it": {
+    "git": {
+      "commitMessage": "chore: release ${version}",
+      "tagName": "v${version}"
+    },
+    "npm": {
+      "publish": true
+    }
+  }
+}
