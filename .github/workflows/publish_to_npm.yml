@@ -19,8 +19,8 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies
         run: npm install
-      - name: Increment version
-        run: npm version patch  # Incrementa la versión de parche
+      # - name: Increment version
+      #   run: npm version patch  # Incrementa la versión de parche
       - name: Publish to NPM
         run: npm publish
         env:
