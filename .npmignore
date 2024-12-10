@@ -1,0 +1,27 @@
+# Ignorar archivos de prueba
+tests/
+
+# Ignorar archivos de configuración específicos del entorno de desarrollo
+*.config.js
+dev.js
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar archivos de documentación, si los generas aparte
+docs/
+
+# Ignorar archivos de control de versiones
+.git/
+.github/
+
+# Ignorar dependencias de desarrollo
+node_modules/
+
+# Ignorar archivos temporales o de caché
+tmp/
+*.tmp
+
+# Ignorar archivos específicos del editor
+.vscode/
+.idea/
