@@ -12,7 +12,6 @@
     "release-it": "^17.10.0"
   },
   "release-it": {
-    "increment": "minor",
     "git": {
       "commitMessage": "chore: release ${version}",
       "tagName": "v${version}"
