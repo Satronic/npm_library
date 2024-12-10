@@ -1,0 +1,25 @@
+# Ignorar directorios
+node_modules/
+lib/
+example/
+
+# Ignorar archivos específicos
+*.log
+*.tmp
+
+# Ignorar archivos de configuración específicos del entorno
+local.config.js
+.env
+
+# Ignorar archivos de IDE/editor
+.vscode/
+.idea/
+*.iml
+
+# Ignorar archivos generados
+*.pyc
+*.class
+
+# Ignorar archivos de sistema operativo
+Thumbs.db
+.DS_Store
